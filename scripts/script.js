@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', function() {
       
       if (item.classList.contains('active')) {
         content.style.maxHeight = content.scrollHeight + 'px';
-        icon.src = '/img/faq-minus.svg';
+        icon.src = 'img/faq-minus.svg';
       } else {
         content.style.maxHeight = 0;
-        icon.src = '/img/faq-plus.svg';
+        icon.src = 'img/faq-plus.svg';
       }
     });
   
@@ -25,11 +25,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (isActive) {
           content.style.maxHeight = 0;
           item.classList.remove('active');
-          icon.src = '/img/faq-plus.svg';
+          icon.src = 'img/faq-plus.svg';
         } else {
           item.classList.add('active');
           content.style.maxHeight = content.scrollHeight + 'px';
-          icon.src = '/img/faq-minus.svg';
+          icon.src = 'img/faq-minus.svg';
         }
       });
     });
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Создаём и добавляем closeIcon
   const closeIcon = document.createElement("img");
-  closeIcon.src = "/img/close.svg";
+  closeIcon.src = "img/close.svg";
   closeIcon.alt = "close";
   closeIcon.classList.add("close-icon");
 
