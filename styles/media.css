@@ -285,7 +285,7 @@
     width: 335px;
     height: 186px;
     padding: 40px 20px 30px 30px;
-    background-image: url("/img/work-form-375.svg");
+    background-image: url("../img/work-form-375.svg");
   }
 
   .work__item span {
@@ -390,7 +390,7 @@
     width: 288px;
     height: 186px;
     padding: 40px 28px 16px 24px;
-    background-image: url("/img/work-form-320.svg");
+    background-image: url("../img/work-form-320.svg");
     justify-content: start;
     gap: 20px;
   }
