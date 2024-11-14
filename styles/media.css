@@ -492,7 +492,7 @@
   }
 
   .faq__item.active .faq__content {
-    max-height: 150px !important;
+    max-height: 170px !important;
     padding: 20px;
   }
 
@@ -543,6 +543,10 @@
     font-size: 16px;
     line-height: 130%;
   }
+  
+  .work__item:last-child {
+    padding-top: 30px;
+  }
 }
 
 @media (max-width: 374px) {
@@ -589,5 +593,9 @@
 
   footer {
     padding: 40px 0;
+  }
+
+  .work__item:last-child {
+    padding-top: 20px;
   }
 }
