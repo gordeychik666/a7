@@ -377,7 +377,7 @@ header {
   padding: 38px 86px 40px 115px;
   width: 524px;
   height: 190px;
-  background-image: url("/img/work-form.svg");
+  background-image: url("../img/work-form.svg");
   position: relative;
   display: flex;
   flex-direction: column;
