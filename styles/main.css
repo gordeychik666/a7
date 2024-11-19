@@ -592,3 +592,7 @@ footer {
 .header__mobile {
   display: none;
 }
+
+.footer__info {
+  max-width: 294px;
+}
