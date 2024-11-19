@@ -597,6 +597,10 @@ footer {
   color: #f88f35;
 }
 
+.footer__politic:active {
+  color: #f88f35;
+}
+
 .header__mobile {
   display: none;
 }
