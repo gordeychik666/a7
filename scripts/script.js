@@ -72,3 +72,16 @@ document.addEventListener('DOMContentLoaded', function() {
     e.stopPropagation(); // Останавливаем всплытие события, чтобы оно не доходило до mobileBg
   });
   
+
+
+  const links = document.querySelectorAll('.footer__politic');
+
+  links.forEach(link => {
+      link.addEventListener('touchstart', function() {
+          link.classList.add('active');
+      });
+
+      link.addEventListener('touchend', function() {
+          link.classList.remove('active');
+      });
+  });
