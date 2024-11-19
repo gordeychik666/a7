@@ -590,12 +590,11 @@ footer {
 }
 
 .footer__politic {
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-skip-ink: none;
-  text-decoration-thickness: auto;
-  text-underline-offset: auto;
-  text-underline-position: from-font;
+  transition: 0.4s all;
+}
+
+.footer__politic:hover {
+  color: #f88f35;
 }
 
 .header__mobile {
