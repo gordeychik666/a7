@@ -153,6 +153,15 @@ header {
   width: fit-content;
   border-radius: 30px;
   cursor: pointer;
+  transition: 0.4s all;
+}
+
+.header__btn:hover {
+  background: #e9fafb;
+  box-shadow: 0px 8px 10px 0px rgba(33, 144, 150, 0.01),
+    0px 7px 10px 0px rgba(33, 144, 150, 0.03),
+    0px 2px 10px 0px rgba(33, 144, 150, 0.04),
+    0px 5px 20px 0px rgba(33, 144, 150, 0.05);
 }
 
 .banner {
@@ -242,7 +251,7 @@ header {
   max-width: 308px;
   width: 100%;
   border-radius: 30px;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .banner__item img {
@@ -595,4 +604,53 @@ footer {
 
 .footer__info {
   max-width: 294px;
+}
+
+.politic {
+  margin-bottom: 50px;
+}
+
+.politic h1 {
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  margin: 30px 0 50px 0;
+  font-weight: 700;
+}
+
+.politic p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 10px 0;
+}
+
+.politic ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.politic__title {
+  font-size: 24px !important;
+  line-height: 32px;
+  margin: 30px 0 15px 0 !important;
+  font-weight: 600;
+}
+
+.politic a {
+  color: #f88f35;
+}
+
+.politic table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.politic th,
+td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #ddd;
 }
